@@ -1,0 +1,74 @@
+/* fuente */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fredoka+One&family=Fugaz+One&family=Inter:wght@500&family=Kanit:wght@500&family=Montserrat:wght@200&family=Neuton&family=Open+Sans:wght@600;700&family=Raleway:wght@500&family=Righteous&family=Rubik:wght@500&family=Staatliches&display=swap');
+
+/* colors */
+:root {
+    --main-dark-color: #252422;
+    --main-dark-grey: #403d39;
+    --main-medium-grey: #ccc5b9;
+    --main-dark-red: #e10001;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header{
+     background-color: var(--main-dark-color) ; 
+} */
+/*barra de navegacion*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    position: fixed;
+    background-color: var(--main-dark-grey);
+    width: 100%;
+    
+}
+
+.logoNav{
+    max-width: 90px;
+    max-height: 90px;
+    margin: 0 0 0 40px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 500px;
+    margin: 0 40px 0 0;
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-medium-grey);
+}
+
+/* planteo de la portada */
+
+body{
+    background-color: var(--main-dark-color);
+    color: var(--main-medium-grey);
+    font-family: 'Montserrat', sans-serif;
+}
+.coverPage{
+    background-image: url(./assets_LVN/portada2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 0 30px var(--main-dark-grey);
+    
+}
+
+
