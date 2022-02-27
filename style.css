@@ -203,6 +203,15 @@ hr {
 
 /*footer*/
 
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
 .pFooter{
     text-align: center;
 }
