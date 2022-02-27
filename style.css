@@ -14,6 +14,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* header{
@@ -33,76 +35,177 @@ nav{
 }
 
 .logoNav{
-    max-width: 90px;
-    max-height: 90px;
-    margin: 0 0 0 40px;
+    margin: 100px 0 0 0;
+    max-width: 150px;
+    max-height: 150px;
+    cursor: pointer;
+    margin-left: 50px;
 }
+
+/* .logoNav:hover {
+   
+
+} */
 
 
 ul{
     display: flex;
     justify-content: space-between;
     align-items: center ;
-    width: 500px;
+    width: 700px;
     margin: 0 40px 0 0;
     list-style: none;
     
 }
 
-a {
+.aNav {
     text-decoration: none;
     color: var(--main-medium-grey);
+    font-size: larger;
+    border: none;
+}
+
+.aNav:hover{
+    border: var(--main-dark-red) solid;
+    font-size: x-large;
+    color: var(--main-medium-grey);
+    transition: 1s;
+        
 }
 
 /* planteo de la portada */
 
 body{
-    background-color: var(--main-dark-color);
+    background: var(--main-dark-color);
     color: var(--main-medium-grey);
-    font-family: 'Montserrat', sans-serif;
+    
 }
-.coverPage{
+.contentUnoGeneral{
     background-image: url(./assets_LVN/portada2.jpg);
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
     height: 100vh;
-    box-shadow: 0 0 30px var(--main-dark-grey);
+}
+
+.contentUno{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.contentRedes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 50px 0 50px;
+    
+
+}
+
+.contentIcon{
+    width: 200px;
+    padding: 20px;
+    transition: all 300ms;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.contentIcon:hover{
+    box-shadow: 0px 10px 40px -5px black;
+}
+
+.contentIcon img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px -10px;
+}
+
+.contentIcon h2{
+    margin-top: 20px;
+}
+.contentIcon p{
+    margin-top: 10px;
+}
+
+hr {
+    border-top: 3px solid var(--main-dark-red);
+    border-bottom: 3px var(--main-dark-red);
+    border-left: none;
+    border-right: none;
+    height: 6px;
+    width: 100%;
+}
+
+.parrafoUno{
+    margin: auto;
+    margin-block-end: 20px;
+    max-width: 800px;
+    font-size: 20px;
     
 }
 
-/*carrusel*/
+/*contentDos*/
 
-form_container{
+.contentDos{
+    background-image: url(./assets_LVN/background2.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contentItemDos{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    height: 80vh;
+}
+
+.contentItemDos img{
     width: 100%;
-    position: relative;
-    margin: 0 auto;
-    overflow: hidden;
+    max-width: 700px;
 }
 
-.left .right{
-    position: absolute;
-    top: 50%;
-    font-size: 4em;
-    height: 50px;
-    border: none;
-    color: #00ccc5;
-    border-radius: 100px;
+.contentItemDos h2{
+    margin-top: 20px;
+    color: #ffff;
 }
 
-.left{
-    left: 0px;
+/*icono flotante de wsp*/
+
+.btnWsp{
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    bottom: 30px;
+    background: #0df053;
+    color: #ffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0,3);
+    z-index: 100;
+    margin-left: 90%;
 }
 
-.right{
-    right: 0px;
+.btnWsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #ffff;
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    bottom: 40px;
+    transition: all 2s;
 }
 
-.form_container .slideContainer .slide{
-    display: inline-block;
-    margin-right: -4px;
-    vertical-align: top;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 20%;
+/*footer*/
+
+.pFooter{
+    text-align: center;
 }
+
+
+
