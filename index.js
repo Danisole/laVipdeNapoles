@@ -1,5 +1,5 @@
-const fulImgBox = document.getElementById("fulImgBox"),
-const fulImg = document.getElementById("fulImg"),
+const fulImgBox = document.getElementById("fulImgBox");
+const fulImg = document.getElementById("fulImg");
 
 function openFulImg(reference){
     fulImgBox.style.display = "flex";

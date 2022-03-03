@@ -214,7 +214,7 @@ hr {
 .img-gallery{
     width: 80%;
     height: 80%;
-    margin: 50px auto 50px;
+    margin: 50px auto 90px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
     align-items: center;
@@ -239,9 +239,10 @@ hr {
 /*galeria foto x foto*/
 
 .ful-img img{
-    width: 90%;
+    width: 80%;
+    height: 90%;
     max-width: 600px;
-    border: #ccc5b9 solid;
+    object-fit: contain;
 }
 
 .ful-img {
@@ -254,7 +255,7 @@ hr {
     display: none;
     align-items: center;
     justify-content: center;
-    
+    z-index: 999;
 }
 
 .ful-img span{
@@ -273,13 +274,13 @@ hr {
 
 footer{
     width: 100%;
-    height: 70px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     background-color: var(--main-dark-grey);
     margin-top: -30px;
-    margin: 30px 0 0 0;
+    
 }
 
 .pFooter{
@@ -290,6 +291,10 @@ footer{
     font-family: 'Press Start 2P', cursive;
     text-decoration: none;
     color:#ff499e;
+}
+
+.nick:hover{
+    color: #fb0779 ;
 }
 
 
