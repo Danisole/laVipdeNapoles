@@ -260,8 +260,8 @@ hr {
 
 .ful-img span{
     position: absolute;
-    top: 25%;
-    right: 30%;
+    top: 10%;
+    right: 10%;
     font-size: 40px;
     color: #ffff;
     cursor: pointer;
