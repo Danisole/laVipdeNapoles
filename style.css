@@ -1,5 +1,6 @@
 /* fuente */
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fredoka+One&family=Fugaz+One&family=Inter:wght@500&family=Kanit:wght@500&family=Montserrat:wght@200&family=Neuton&family=Open+Sans:wght@600;700&family=Raleway:wght@500&family=Righteous&family=Rubik:wght@500&family=Staatliches&display=swap');
 
 /* colors */
@@ -7,7 +8,7 @@
     --main-dark-color: #252422;
     --main-dark-grey: #403d39;
     --main-medium-grey: #ccc5b9;
-    --main-dark-red: #e10001;    
+    --main-dark-red: #e10001;
 }
 
 *{
@@ -19,7 +20,7 @@
 }
 
 /* header{
-     background-color: var(--main-dark-color) ; 
+     background-color: var(--main-dark-color) ;
 } */
 /*barra de navegacion*/
 
@@ -31,7 +32,7 @@ nav{
     position: fixed;
     background-color: var(--main-dark-grey);
     width: 100%;
-    
+    z-index: 100;
 }
 
 .logoNav{
@@ -42,12 +43,6 @@ nav{
     margin-left: 50px;
 }
 
-/* .logoNav:hover {
-   
-
-} */
-
-
 ul{
     display: flex;
     justify-content: space-between;
@@ -55,7 +50,7 @@ ul{
     width: 700px;
     margin: 0 40px 0 0;
     list-style: none;
-    
+
 }
 
 .aNav {
@@ -63,14 +58,16 @@ ul{
     color: var(--main-medium-grey);
     font-size: larger;
     border: none;
+    transition: 0.5s;
 }
 
 .aNav:hover{
     border: var(--main-dark-red) solid;
+    border-radius: 15px;
     font-size: x-large;
     color: var(--main-medium-grey);
     transition: 1s;
-        
+
 }
 
 /* planteo de la portada */
@@ -78,7 +75,7 @@ ul{
 body{
     background: var(--main-dark-color);
     color: var(--main-medium-grey);
-    
+
 }
 .contentUnoGeneral{
     background-image: url(./assets_LVN/portada2.jpg);
@@ -99,7 +96,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin: 50px 50px 0 50px;
-    
+
 
 }
 
@@ -142,7 +139,7 @@ hr {
     margin-block-end: 20px;
     max-width: 800px;
     font-size: 20px;
-    
+
 }
 
 /*contentDos*/
@@ -188,6 +185,7 @@ hr {
     box-shadow: 0px 1px 10px rgba(0,0,0,0,3);
     z-index: 100;
     margin-left: 90%;
+    transition: 1s;
 }
 
 .btnWsp:hover{
@@ -201,7 +199,77 @@ hr {
     transition: all 2s;
 }
 
+/*carrusel imagenes*/
+
+.galeria{
+    margin: 300px;
+}
+
+.h1Destacados{
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.img-gallery{
+    width: 80%;
+    height: 80%;
+    margin: 50px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    align-items: center;
+    gap: 30px;
+}
+
+.img-gallery img{
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+.img-gallery img:hover{
+    transform: scale(1.2);
+}
+.gallery{
+    border:#ccc5b9 solid;
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+}
+
+/*galeria foto x foto*/
+
+.ful-img img{
+    width: 90%;
+    max-width: 600px;
+    border: #ccc5b9 solid;
+}
+
+.ful-img {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ful-img span{
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    font-size: 40px;
+    color: #ffff;
+    cursor: pointer;
+}
+
 /*footer*/
+.todo{
+    min-height: 100%;
+}
 
 footer{
     width: 100%;
@@ -209,12 +277,19 @@ footer{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
+    background-color: var(--main-dark-grey);
+    margin-top: -30px;
+    margin: 30px 0 0 0;
 }
 
 .pFooter{
     text-align: center;
-}
 
+}
+.nick{
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    color:#ff499e;
+}
 
 
