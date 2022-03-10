@@ -79,8 +79,8 @@ ul{
 .ham span{
     display: block;
     background-color: #f3f3f3;
-    height: 3px;
-    width: 28px;
+    height: 2px;
+    width: 25px;
     margin: 10px auto;
     border-radius: 2px;
 }
@@ -332,7 +332,7 @@ footer{
     .contentUnoGeneral{
         max-width: 600px;
         max-height: 380px;
-        background-image: url(./assets_LVN/backgroundPosible.jpeg);
+        background-image: url(./assets_LVN/portada2.jpeg);
         background-size: contain;
         background-repeat:no-repeat;
         
@@ -387,7 +387,7 @@ footer{
     }
 
     h1{
-        font-size: 30px;
+        font-size: 26px;
         padding: 0 0 30px 0;
     }
 
