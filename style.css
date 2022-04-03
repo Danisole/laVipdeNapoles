@@ -19,6 +19,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.contacto{
+    scroll-margin-top: 14ex ;
+}
+
 /*probar*/
 html{
     scroll-behavior: smooth;
@@ -111,7 +115,7 @@ body{
 }
 
 h1, h2, h3{ 
-    margin: 30px 0;
+    margin: 50px 0 30px 0;
 }
 
 /*redes sociales*/
@@ -165,14 +169,14 @@ hr {
     border-right: none;
     height: 6px;
     width: 100%;
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 .parrafoUno{
     margin: auto;
     margin-block-end: 90px;
     max-width: 1000px;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 /*contentDos*/
@@ -225,6 +229,10 @@ hr {
     width: 100%;
     border-radius: 50%;
     box-shadow: 0px 0px 40px -10px;
+}
+
+.llamada{
+    margin: 5px;
 }
 
 /*icono flotante de wsp*/
@@ -370,7 +378,7 @@ footer{
         
     }
     .logoNav{
-        margin: 0;
+        margin: -10px;
         max-width: 70px;
         max-height: 70px;
         margin-left: 30px;
