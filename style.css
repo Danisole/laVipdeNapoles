@@ -19,6 +19,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/*probar*/
+html{
+    scroll-behavior: smooth;
+}
 /*barra de navegacion*/
 
 nav{
@@ -102,11 +106,11 @@ body{
 
 .contentUno{
     width: 100%;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
 }
 
-h1, h2{ 
+h1, h2, h3{ 
     margin: 30px 0;
 }
 
@@ -125,7 +129,7 @@ h1, h2{
     justify-content: space-around;
     margin: 30px 50px 0 50px;
     transform: scale(0.1);
-    transition: all 1s ease-in-out;
+    transition: all 1.2s ease-in-out;
 }
 .active {
     opacity: 1;
@@ -151,6 +155,7 @@ h1, h2{
 
 .contentIcon p{
     margin-top: 10px;
+    
 }
 
 hr {
@@ -165,9 +170,9 @@ hr {
 
 .parrafoUno{
     margin: auto;
-    margin-block-end: 20px;
-    max-width: 800px;
-    font-size: 20px;
+    margin-block-end: 90px;
+    max-width: 1000px;
+    font-size: 30px;
 }
 
 /*contentDos*/
@@ -195,6 +200,31 @@ hr {
 .contentItemDos h2{
     margin-top: 20px;
     color: #ffff;
+}
+
+/*contenedor del telefono*/
+
+.contactConten{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactIcon{
+    width: 200px;
+    padding: 20px;
+    transition: all 300ms;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.contactIcon:hover{
+    box-shadow: 0px 10px 40px -5px black;
+}
+.contactIcon img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px -10px;
 }
 
 /*icono flotante de wsp*/
@@ -227,7 +257,7 @@ hr {
     transition: all 2s;
 }
 
-/*carrusel imagenes*/
+/*Galeria imagenes*/
 
 .galeria{
     margin: 300px;
@@ -248,12 +278,14 @@ hr {
     grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
     align-items: center;
     gap: 30px;
+    
 }
 
 .img-gallery img{
     width: 100%;
     cursor: pointer;
     transition: 1s;
+    border-radius: 10px;
 }
 
 .img-gallery img:hover{

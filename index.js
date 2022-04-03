@@ -22,6 +22,7 @@ ham.addEventListener("click", () => {
 })
 
 
+
 /*iconos redes*/
 
 window.addEventListener("scroll", ()=>{
