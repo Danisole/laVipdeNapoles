@@ -4,7 +4,7 @@ const ham = document.querySelector(".ham");
 const enlaces = document.querySelector(".containLi");
 const barras = document.querySelectorAll(".ham span");
 const containLi = document.querySelector(".containLi");
-const ulls = document.querySelector(".liNav ul")
+const ulls = document.querySelector(".liNav ul");
 
 /*fotos*/
 function openFulImg(reference) {
@@ -17,8 +17,6 @@ function closeImg() {
 }
 
 /*menu hamburguesa*/
-
-
 
 ham.addEventListener("click", () => {
   enlaces.classList.toggle("activado");
