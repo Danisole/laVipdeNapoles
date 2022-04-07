@@ -350,7 +350,6 @@ hr {
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
-    
     gap: 30px;
     padding: 0 0 0 60px;
 }
@@ -517,6 +516,29 @@ footer{
         margin-bottom: 30%;
         z-index: 999;
     }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+
+    }
+
+    .card{
+        margin: 0 ;
+        width: 240px;
+        height: 220px;
+    }
+
+    .cardImage{
+        width: 100%;
+    }
+
+
+
+
     
 }
 
