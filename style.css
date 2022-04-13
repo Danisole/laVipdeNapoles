@@ -648,7 +648,7 @@ footer{
 @media screen and (min-width:769px) and (max-device-width:1024) {
     
 }
-
+/* 
 @media screen and (min-width:1025px) and (max-width:1366px) {
     nav{
         height: 70px;
@@ -744,12 +744,12 @@ footer{
         width: 100%;
         height: 100vh;
     }
-    
-}
+     */
+/* }
 
 
 
 @media screen and  (max-device-width:1920) {
     
 
-}
+} */
