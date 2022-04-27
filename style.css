@@ -648,9 +648,46 @@ footer{
 @media screen and (min-width:769px) and (max-device-width:1024) {
     
 }
-/* 
+
 @media screen and (min-width:1025px) and (max-width:1366px) {
-    nav{
+
+    .card{
+        margin: 20px 0 20px 0 ;
+        width: 240px;
+        height: 220px;
+        flex-wrap: wrap;
+        
+    }
+
+    .contentUnoGeneral{
+        max-width: 1366px;
+        background-image: url(./assets_LVN/portada2.jpg);
+        max-height: 780px;
+        background-size: contain;
+        background-repeat:no-repeat;
+    }
+
+    .logoNav{
+        margin-top: 35px;
+        max-width: 100px;
+        max-height: 100px;
+        margin-left: 40px;
+    }
+    .containLi{
+        justify-content:flex-end;
+        gap: 35px;
+    }
+
+    .pFooter{
+        font-size: 15px;
+        margin: 10px 0 0 0;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    /*nav{
         height: 70px;
     }
 
@@ -673,12 +710,7 @@ footer{
         background-repeat:no-repeat;
     }
 
-    .logoNav{
-        margin-top: 5px;
-        max-width: 60px;
-        max-height: 60px;
-        margin-left: 40px;
-    }
+
 
     .aNav{
         font-size: 14px;
@@ -701,23 +733,12 @@ footer{
 
     }
 
-    .card{
-        margin: 20px 0 20px 0 ;
-        width: 240px;
-        height: 220px;
-        
-    }
+    
 
-    .cardImage{
-        width: 100%;
-        object-fit: cover;
-        display: flex;
-        align-items: center;
-    }
+    
+    
 
-    .cardTitle{
-        font-size: 15px;
-    }
+    
 
     .redesDiv{
         font-size: 20px;
@@ -745,11 +766,11 @@ footer{
         height: 100vh;
     }
      */
-/* }
+ }
 
 
 
 @media screen and  (max-device-width:1920) {
     
 
-} */
+} 
