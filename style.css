@@ -356,6 +356,7 @@ hr {
 }
 .card:hover .cardImage{
     transform: scale(1.15);
+    opacity: .7;
 }
 
 .cardTitle{
