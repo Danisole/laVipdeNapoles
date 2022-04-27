@@ -709,6 +709,7 @@ footer{
     .card{
         margin: 20px 0 20px 0 ;
         width: 240px;
+        height: 200px;
     }
 
     .logoNav{
@@ -720,15 +721,20 @@ footer{
     .containLi{
         justify-content:flex-end;
         gap: 35px;
+        font-size: 14px;
     }
 
     .pFooter{
-        font-size: 15px;
+        font-size: 12px;
         margin: 10px 0 0 0;
     }
 
     h1{
-        font-size: 40px;
+        font-size: 30px;
+    }
+    
+    h2{
+        font-size: 20px;
     }
 
 }
