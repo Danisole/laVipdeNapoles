@@ -659,13 +659,14 @@ footer{
         
     }
 
-    .contentUnoGeneral{
+    /* .contentUnoGeneral{
         max-width: 1366px;
         background-image: url(./assets_LVN/portada2.jpg);
         max-height: 780px;
         background-size: contain;
         background-repeat:no-repeat;
-    }
+
+    } */
 
     .logoNav{
         margin-top: 35px;
@@ -687,88 +688,7 @@ footer{
         font-size: 40px;
     }
 
-    /*nav{
-        height: 70px;
-    }
-
-    h1{
-        font-size: 30px;
-    }
-
-    p{
-        font-size: 18px;
-    }
-    .parrafoUno{
-        width: 80%;
-    }
-
-    .contentUnoGeneral{
-        max-width: 1366px;
-        background-image: url(./assets_LVN/portada2.jpg);
-        max-height: 480px;
-        background-size: contain;
-        background-repeat:no-repeat;
-    }
-
-
-
-    .aNav{
-        font-size: 14px;
-        
-    }
-
-    .containLi{
-        justify-content:flex-end;
-        gap: 30px;
-
-    }
-
-    .cards{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        gap: 30px;
-
-    }
-
-    
-
-    
-    
-
-    
-
-    .redesDiv{
-        font-size: 20px;
-    }
-
-    .pFooter{
-        font-size: 12px;
-        margin: 10px 0 0 0;
-    }
-
-    footer{
-        height: 60px;
-        margin-top: -25px;
-        
-    }
-
-    .contentUno{
-        padding: 10px;
-    }
-
-    .contentUnoGeneral{
-                background-attachment: fixed;
-        background-size: cover;
-        width: 100%;
-        height: 100vh;
-    }
-     */
- }
-
-
+}
 
 @media screen and  (max-device-width:1920) {
     
